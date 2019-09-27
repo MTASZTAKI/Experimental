@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/cmake_modules/FindGLFW3.cmake
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/examples/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPkgConfig.cmake

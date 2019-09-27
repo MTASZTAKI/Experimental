@@ -1,0 +1,9 @@
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/CMakeFiles/generate_resources_tool.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/CMakeFiles/freenect2.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/CMakeFiles/INSTALL.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/CMakeFiles/ALL_BUILD.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/CMakeFiles/ZERO_CHECK.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/doc/CMakeFiles/INSTALL.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/examples/CMakeFiles/Protonect.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/examples/CMakeFiles/INSTALL.dir
+C:/ApertusVR/3rdParty/multikinect/libfreenect2-master/examples/CMakeFiles/ALL_BUILD.dir

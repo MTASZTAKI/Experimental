@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\ApertusVR\3rdParty\multikinect\libfreenect2-master\CMakeFiles\b57d10c1906e04bce57de65e47b7dc5d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3EDCA5FE-19CF-3991-B0D5-03DACAA65883}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

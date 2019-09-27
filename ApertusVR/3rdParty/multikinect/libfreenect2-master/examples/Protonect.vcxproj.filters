@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ApertusVR\3rdParty\multikinect\libfreenect2-master\examples\Protonect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ApertusVR\3rdParty\multikinect\libfreenect2-master\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{79CF0759-B38D-367B-AA89-F84CE1FFDF5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
