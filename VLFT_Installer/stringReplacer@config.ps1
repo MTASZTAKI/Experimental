@@ -21,13 +21,13 @@ Get-ChildItem . config.json -rec | ForEach-Object {
 }
 
 Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/samples/virtualLearningFactory/resources' -Replacement $($pwd.Path.replace( '\', '/')  + '/samples/virtualLearningFactory/resources') 
+    Replace-TextInFile -FilePath $_.FullName -Pattern '/samples/virtualLearningFactory/resources/' -Replacement $($pwd.Path.replace( '\', '/')  + '/samples/virtualLearningFactory/resources/') 
 }
 
 Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/macros/sceneMaker/resources' -Replacement $($pwd.Path.replace( '\', '/')  + '/macros/sceneMaker/resources')
+    Replace-TextInFile -FilePath $_.FullName -Pattern '/macros/sceneMaker/resources/' -Replacement $($pwd.Path.replace( '\', '/')  + '/macros/sceneMaker/resources/')
 }
 
 Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/plugins/render/ogreRender/resources' -Replacement $($pwd.Path.replace( '\', '/') + '/plugins/render/ogreRender/resources')
+    Replace-TextInFile -FilePath $_.FullName -Pattern '/plugins/render/ogreRender/resources/' -Replacement $($pwd.Path.replace( '\', '/') + '/plugins/render/ogreRender/resources/')
 }
