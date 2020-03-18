@@ -50,9 +50,9 @@ Section
 	Delete "$INSTDIR\stringReplacer@config.bat"
 	Delete "$INSTDIR\stringReplacer@config.ps1"	
 		
-	CreateDirectory "$DESKTOP\VLFT_Gamification"
-	CreateShortCut "$DESKTOP\VLFT_Gamification\Local.lnk" "$INSTDIR\bin\release\apeSampleLauncher.exe" "$INSTDIR\samples\virtualLearningFactory\local\" "$INSTDIR\bin\release"
-	CreateShortCut "$DESKTOP\VLFT_Gamification\Student.lnk" "$INSTDIR\bin\release\apeSampleLauncher.exe" "$INSTDIR\samples\virtualLearningFactory\student\" "$INSTDIR\bin\release"
-	CreateShortCut "$DESKTOP\VLFT_Gamification\Teacher.lnk" "$INSTDIR\bin\release\apeSampleLauncher.exe" "$INSTDIR\samples\virtualLearningFactory\teacher\" "$INSTDIR\bin\release"
+	SetOutPath $DESKTOP\VLFT_Gamification
+	File "Local.lnk"
+	File "Student.lnk"
+	File "Teacher.lnk"
 	
 SectionEnd
