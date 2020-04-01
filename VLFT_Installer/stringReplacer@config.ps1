@@ -21,11 +21,11 @@ Get-ChildItem . config.json -rec | ForEach-Object {
 }
 
 Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/samples/virtualLearningFactory/resources/' -Replacement $($pwd.Path.replace( '\', '/')  + '/samples/virtualLearningFactory/resources/') 
+    Replace-TextInFile -FilePath $_.FullName -Pattern '/samples/virtualLearningFactory/models/' -Replacement $($pwd.Path.replace( '\', '/')  + '/samples/virtualLearningFactory/resources/') 
 }
 
 Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/macros/sceneMaker/resources/' -Replacement $($pwd.Path.replace( '\', '/')  + '/macros/sceneMaker/resources/')
+    Replace-TextInFile -FilePath $_.FullName -Pattern '/macros/sceneMaker/resources' -Replacement $($pwd.Path.replace( '\', '/')  + '/macros/sceneMaker/resources/')
 }
 
 Get-ChildItem . apeCore.json -rec | ForEach-Object { 
