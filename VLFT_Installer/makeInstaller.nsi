@@ -1,8 +1,8 @@
-OutFile "VLFT_Gamification.exe"
+OutFile "VLFT_Gamification10.exe"
 RequestExecutionLevel admin
 !include 'StdUtils.nsh'
 
-InstallDir "c:\VLFT_Gamification\02"
+InstallDir "c:\VLFT_Gamification\10"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
@@ -42,6 +42,12 @@ Section
 	
 	SetOutPath $INSTDIR\samples\virtualLearningFactory
 	File /r "..\..\ApertusVR09\samples\virtualLearningFactory\"
+	
+	SetOutPath $INSTDIR\samples
+	File "..\..\ApertusVR09\samples\virtualLearningFactory.md5"
+	
+	SetOutPath $INSTDIR\screenshots
+	SetOutPath $INSTDIR\screencasts
 
 	SetOutPath $INSTDIR
 	File "stringReplacer@config.bat"
