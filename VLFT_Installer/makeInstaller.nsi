@@ -1,8 +1,8 @@
-OutFile "VLFT_Gamification11.exe"
+OutFile "VLFT_Gamification12.exe"
 RequestExecutionLevel admin
 !include 'StdUtils.nsh'
 
-InstallDir "c:\VLFT_Gamification\11"
+InstallDir "c:\VLFT_Gamification\12"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
@@ -48,6 +48,7 @@ Section
 	
 	SetOutPath $INSTDIR\screenshots
 	SetOutPath $INSTDIR\screencasts
+	SetOutPath $INSTDIR\studentsMovementLog
 
 	SetOutPath $INSTDIR
 	File "stringReplacer@config.bat"
@@ -57,14 +58,6 @@ Section
 	Delete "$INSTDIR\stringReplacer@config.ps1"	
 		
 	SetOutPath $DESKTOP\VLFT_Gamification
-	File "LocalTestCase02.lnk"
-	File "StudentTestCase02.lnk"
-	File "TeacherTestCase02.lnk"
-	File "LocalTestCase03.lnk"
-	File "StudentTestCase03.lnk"
-	File "TeacherTestCase03.lnk"
-	File "LocalTestCase04.lnk"
-	File "StudentTestCase04.lnk"
-	File "TeacherTestCase04.lnk"
+	File "VLFT_Gamification.lnk"
 	
 SectionEnd

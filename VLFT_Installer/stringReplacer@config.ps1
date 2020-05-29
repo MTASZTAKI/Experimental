@@ -19,23 +19,3 @@ Get-ChildItem . config.json -rec | ForEach-Object {
 Get-ChildItem . config.json -rec | ForEach-Object { 
     Replace-TextInFile -FilePath $_.FullName -Pattern '-build' -Replacement '' 
 }
-
-Get-ChildItem . apeVLFTSceneLoaderPlugin.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/samples/virtualLearningFactory/models/' -Replacement $($pwd.Path.replace( '\', '/')  + '/samples/virtualLearningFactory/models/') 
-}
-
-Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/samples/virtualLearningFactory/models/' -Replacement $($pwd.Path.replace( '\', '/')  + '/samples/virtualLearningFactory/models/') 
-}
-
-Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/macros/sceneMaker/resources' -Replacement $($pwd.Path.replace( '\', '/')  + '/macros/sceneMaker/resources/')
-}
-
-Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '/plugins/render/ogreRender/resources/' -Replacement $($pwd.Path.replace( '\', '/') + '/plugins/render/ogreRender/resources/')
-}
-
-Get-ChildItem . apeCore.json -rec | ForEach-Object { 
-    Replace-TextInFile -FilePath $_.FullName -Pattern '"/samples"' -Replacement $('"' + $pwd.Path.replace( '\', '/') + '/samples"')
-}
