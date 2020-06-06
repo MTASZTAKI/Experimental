@@ -1,8 +1,8 @@
-OutFile "VLFT_Gamification12.exe"
+OutFile "VLFT_Gamification13.exe"
 RequestExecutionLevel admin
 !include 'StdUtils.nsh'
 
-InstallDir "c:\VLFT_Gamification\12"
+InstallDir "c:\VLFT_Gamification\13"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
