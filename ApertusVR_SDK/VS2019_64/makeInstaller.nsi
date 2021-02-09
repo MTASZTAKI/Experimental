@@ -22,5 +22,5 @@ Section
 	SetOutPath $INSTDIR\bin\release
 	File /r "$%APERTUSVR_BUILD%\bin\release\" 
 	SetOutPath $INSTDIR\bin\debug
-    File /x "*.pdb" /x "*.ilk" "$%APERTUSVR_BUILD%\bin\debug\"	
+    File /r /x "*.pdb" /x "*.ilk" "$%APERTUSVR_BUILD%\bin\debug\"	
 SectionEnd
