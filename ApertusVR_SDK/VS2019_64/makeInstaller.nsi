@@ -13,8 +13,12 @@ SectionEnd
 Section
 	SetOutPath $INSTDIR\include
 	File /r "$%APERTUSVR_SOURCE%\include\" 
+	SetOutPath $INSTDIR\macros
+	File /r "$%APERTUSVR_SOURCE%\macros\" 
 	SetOutPath $INSTDIR\lib
 	File /r "$%APERTUSVR_BUILD%\core\" 
+	SetOutPath $INSTDIR\lib
+	File /r "$%APERTUSVR_BUILD%\macros\" 
 	SetOutPath $INSTDIR\bin\release
 	File /r "$%APERTUSVR_BUILD%\bin\release\" 
 	SetOutPath $INSTDIR\bin\debug
