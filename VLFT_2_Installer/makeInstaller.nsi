@@ -31,7 +31,7 @@ Section
 	SetOutPath $INSTDIR\screencasts
 	SetOutPath $INSTDIR\studentsMovementLog
 		
-	SetOutPath $DESKTOP\VLFT_Gamification
+	SetOutPath $DESKTOP\VLFT_Gamification\200
 	File "VLFT_Gamification.lnk"
 	
 SectionEnd
