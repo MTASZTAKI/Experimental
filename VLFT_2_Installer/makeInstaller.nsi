@@ -27,10 +27,10 @@ Section
 	SetOutPath $INSTDIR\samples\virtualLearningFactory
 	File /r "..\..\VLFT_Gamification\samples\virtualLearningFactory\"
 	
-	SetOutPath $INSTDIR\samples\virtualLearningFactory.zip
+	SetOutPath $INSTDIR\samples
 	File "..\..\VLFT_Gamification\samples\virtualLearningFactory.zip"
 	
-	SetOutPath $INSTDIR\samples\virtualLearningFactory.md5
+	SetOutPath $INSTDIR\samples
 	File "..\..\VLFT_Gamification\samples\virtualLearningFactory.md5"
 	
 	SetOutPath $INSTDIR\screenshots
