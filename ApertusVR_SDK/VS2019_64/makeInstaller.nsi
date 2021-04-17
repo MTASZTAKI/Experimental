@@ -15,6 +15,10 @@ Section
 	File /r "$%APERTUSVR_SOURCE%\include\" 
 	SetOutPath $INSTDIR\macros
 	File /r "$%APERTUSVR_SOURCE%\macros\"
+	SetOutPath $INSTDIR\plugins\languageAPI\java
+	File /r "$%APERTUSVR_SOURCE%\plugins\languageAPI\java\"
+	SetOutPath $INSTDIR\plugins\languageAPI\jni
+	File /r "$%APERTUSVR_SOURCE%\plugins\languageAPI\jni\"
     SetOutPath $INSTDIR\plugins\languageAPI\jsAPI\nodeJsPlugin
 	File /r "$%APERTUSVR_SOURCE%\plugins\languageAPI\jsAPI\nodeJsPlugin\" 	
 	SetOutPath $INSTDIR\lib
