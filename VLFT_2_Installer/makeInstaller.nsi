@@ -1,7 +1,7 @@
-OutFile "VLFT_Gamification200.exe"
+OutFile "VLFT_Gamification201.exe"
 RequestExecutionLevel admin
 
-InstallDir "c:\VLFT_Gamification\200"
+InstallDir "c:\VLFT_Gamification\201"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
@@ -16,28 +16,28 @@ SectionEnd
 
 Section
     SetOutPath $INSTDIR\bin\assets
-	File /r "..\..\VLFT_Gamification-build\bin\assets\" 
+	File /r "e:\VLFT-build\bin\assets\" 
 	
 	SetOutPath $INSTDIR\bin\default_env
-	File /r "..\..\VLFT_Gamification-build\bin\default_env\" 
+	File /r "e:\VLFT-build\bin\default_env\" 
 	
 	SetOutPath $INSTDIR\bin\release
-	File /r "..\..\VLFT_Gamification-build\bin\release\" 
+	File /r "e:\VLFT-build\bin\release\" 
 	
 	SetOutPath $INSTDIR\samples\virtualLearningFactory
-	File /r "..\..\VLFT_Gamification\samples\virtualLearningFactory\"
+	File /r "e:\VLFT\samples\virtualLearningFactory\"
 	
 	SetOutPath $INSTDIR\samples
-	File "..\..\VLFT_Gamification\samples\virtualLearningFactory.zip"
+	File "e:\VLFT\samples\virtualLearningFactory.zip"
 	
 	SetOutPath $INSTDIR\samples
-	File "..\..\VLFT_Gamification\samples\virtualLearningFactory.md5"
+	File "e:\VLFT\samples\virtualLearningFactory.md5"
 	
 	SetOutPath $INSTDIR\screenshots
 	SetOutPath $INSTDIR\screencasts
 	SetOutPath $INSTDIR\studentsMovementLog
 		
-	SetOutPath $DESKTOP\VLFT_Gamification\200
+	SetOutPath $DESKTOP\VLFT_Gamification\201
 	File "VLFT_Gamification.lnk"
 	
 SectionEnd
