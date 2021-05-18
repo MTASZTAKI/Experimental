@@ -1,7 +1,7 @@
-OutFile "VLFT_Gamification202.exe"
+OutFile "VLFT_Gamification203.exe"
 RequestExecutionLevel admin
 
-InstallDir "c:\VLFT_Gamification\202"
+InstallDir "c:\VLFT_Gamification\203"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
@@ -37,7 +37,7 @@ Section
 	SetOutPath $INSTDIR\screencasts
 	SetOutPath $INSTDIR\studentsMovementLog
 		
-	SetOutPath $DESKTOP\VLFT_Gamification\202
+	SetOutPath $DESKTOP\VLFT_Gamification\203
 	File "VLFT_Gamification.lnk"
 	
 SectionEnd
