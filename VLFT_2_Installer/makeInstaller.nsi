@@ -1,7 +1,7 @@
-OutFile "VLFT_Gamification203.exe"
+OutFile "VLFT_Gamification204.exe"
 RequestExecutionLevel admin
 
-InstallDir "c:\VLFT_Gamification\203"
+InstallDir "c:\VLFT_Gamification\204"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
@@ -16,28 +16,28 @@ SectionEnd
 
 Section
     SetOutPath $INSTDIR\bin\assets
-	File /r "e:\VLFT-build\bin\assets\" 
+	File /r "c:\ApertusVR-build\\bin\assets\" 
 	
 	SetOutPath $INSTDIR\bin\default_env
-	File /r "e:\VLFT-build\bin\default_env\" 
+	File /r "c:\ApertusVR-build\\bin\default_env\" 
 	
 	SetOutPath $INSTDIR\bin\release
-	File /r "e:\VLFT-build\bin\release\" 
+	File /r "c:\ApertusVR-build\\bin\release\" 
 	
 	SetOutPath $INSTDIR\samples\virtualLearningFactory
-	File /r "e:\VLFT\samples\virtualLearningFactory\"
+	File /r "c:\ApertusVR\samples\virtualLearningFactory\"
 	
 	SetOutPath $INSTDIR\samples
-	File "e:\VLFT\samples\virtualLearningFactory.zip"
+	File "c:\ApertusVR\samples\virtualLearningFactory.zip"
 	
 	SetOutPath $INSTDIR\samples
-	File "e:\VLFT\samples\virtualLearningFactory.md5"
+	File "c:\ApertusVR\samples\virtualLearningFactory.md5"
 	
 	SetOutPath $INSTDIR\screenshots
 	SetOutPath $INSTDIR\screencasts
 	SetOutPath $INSTDIR\studentsMovementLog
 		
-	SetOutPath $DESKTOP\VLFT_Gamification\203
+	SetOutPath $DESKTOP\VLFT_Gamification\204
 	File "VLFT_Gamification.lnk"
 	
 SectionEnd
